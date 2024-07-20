@@ -23,3 +23,17 @@ while (condition):
 #     start += 1
 # else:
 #     print("Loop ended.")
+
+
+"""
+syntax:
+
+while (condition):
+    block of code
+"""
+
+import time
+
+while(1):
+    time.sleep(2)  # Wait for 1 second
+    print("Task 1")
