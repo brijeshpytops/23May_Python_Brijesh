@@ -1,0 +1,1 @@
+1] get the input from the user and manually find the length of given string without using in-built functions
