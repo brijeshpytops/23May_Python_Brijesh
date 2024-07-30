@@ -16,6 +16,7 @@ my_string = "Hello, World!"
 my_string = 'Hello, World!'
 my_string = '''Hello, World!'''
 my_string = """Hello, World!"""
+my_string = str()
 
 # print(type(my_string))
 
@@ -53,6 +54,11 @@ code = "python"
 
 # print(code * 3)
 
+# num = 10
+
+# for row in range(1, num+1):
+#     print(" "*(num-row), " *"*row)
+
 # for ch in code:
 #     print(chr(ord(ch)))
 
@@ -86,7 +92,43 @@ center = "python"
 # print("name :\"brijesh gondaliy\"")
 # print('\'')
 
-name = "python"
+
+# password = "#%#$%#$%"
+
+# print(not password.isalnum())
+# print(password.isalpha())
+# print(password.isdigit())
+
+# is_upper = False
+# is_lower = False
+# is_digit = False
+# is_spe_ch = False
+# is_8_plus = False
+
+# password = input("Enter a password: ")
+
+# if len(password) >= 8:
+#     is_8_plus = True
+#     for ch in password:
+#         if ch.isupper():
+#             is_upper = True
+
+#         if ch.islower():
+#             is_lower = True
+
+#         if ch.isdigit():
+#             is_digit = True
+
+#         if not ch.isalnum():
+#             is_spe_ch = True
+
+# if is_upper and is_lower and is_digit and is_spe_ch and is_8_plus:
+#     print("Valid password")
+# else:
+#     print("Invalid password")
+
+
+# name = "python"
 price = 399.256765367450
 pages = 345
 
@@ -95,5 +137,5 @@ pages = 345
 # print("my book name is {} and its price and page is {} and {}.".format(name, price, pages))
 # print("my book name is {0} and its price and page is {1} and {2}.".format(name, price, pages))
 # print("my book name is {1} and its price and page is {2} and {3}.".format(name,name, price, pages))
-print("my book name is %s and its price and page is %.2f and %d." % (name, price, pages))
+# print("my book name is %s and its price and page is %.2f and %d." % (name, price, pages))
 
