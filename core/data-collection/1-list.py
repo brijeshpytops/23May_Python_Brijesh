@@ -82,6 +82,35 @@ y = 10
 # nums.reverse()
 # print(nums)
 
-nested_list = [1,2,[3,4,[5, 6,7,[8,9,10,[11]]]]]
+# nested_list = [1,2,[3,4,[5, 6,7,[8,9,10,[11]]]]]
 # print(len(nested_list))
 # print(nested_list[-1][-1][-1][-1][-1])
+
+# users = [
+#     ['brijesh', 'gondaliya', 28, 'brijesh@gmil.com', '6536256234'],
+#     ['raj', 'shah', 22, 'raj@gmil.com', '6536256756234'],
+# ]
+# for user in users:
+#     for data in user:
+#         print(data)
+
+users = []
+
+is_first_time = True
+flag = True
+while(flag):
+    if is_first_time:
+        is_first_time = False
+    else:
+        yesNo = input("You want to continue? [y/n]").lower()
+        if yesNo == 'y':
+            flag = True
+        else:
+            flag = False
+            break
+
+    name = input("Enter your name: ")
+    user = [name]
+    users.append(user)
+
+print(users)
