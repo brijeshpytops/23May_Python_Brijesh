@@ -93,3 +93,30 @@ contacts = {
 
 # print(products.fromkeys(items, price))
 
+# d = {
+#     'name':"brijesh",
+#     'name':'raj'
+# }
+# print(d)
+
+# users = []
+
+# is_first_time = True
+# flag = True
+# while(flag):
+#     user = {}
+#     if is_first_time:
+#         is_first_time = False
+#     else:
+#         yesNo = input("You want to continue? [y/n]").lower()
+#         if yesNo == 'y':
+#             flag = True
+#         else:
+#             flag = False
+#             break
+
+#     name = input("Enter your name: ")
+#     user['name'] = name
+#     users.append(user)
+
+# print(users)
