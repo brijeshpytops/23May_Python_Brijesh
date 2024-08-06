@@ -1,0 +1,137 @@
+task-1: Gussing game
+
+s-1] get the input from the user
+s-2] define winning num
+logic:
+
+gn, wn
+wn = 67
+
+gn = 23 gn < wn : too low
+
+gn = 89 gn > wn : too high
+
+gn = 67 gn == wn :  you win. you have gussed after 3 times.
+
+import random
+
+print(random.randint(0, 100))
+
+wANT play again?
+
+
+task-2] pizza bill 
+https://docs.python.org/3/library/datetime.html#module-datetime
+
+import datetime
+
+current_time = datetime.datetime.now()
+# print(current_time)
+# 2024-08-06 14:54:11.788949
+
+# 06 Aug, 2024 | 14:54 PM
+
+# print(current_time.strftime('%d %b, %Y | %I:%M %p | %A'))
+
+task-3: create a functions
+
+s-1] get the string from the users
+s-2] function : count_lower
+s-3] function : count_upper
+s-4] function : count_special_symbols
+s-5] function : count_digits
+s-6] function : count_vowels
+s-7] function : count_consonents
+
+task-4: check password
+
+- atleast 1 lower
+- atleast 1 upper
+- atleast 1 digit
+- atleast 1 special: @,!,_
+- atleast 8 char
+Invalid passwprd, valid password
+
+task-5: generate city bus ticket
+
+task-6: 
+
+s1 = app
+s2 = auple
+
+p -> u : update
+  -> l : insert
+  -> e : insert
+---------------
+total step is 3
+
+1] delete
+2] update
+3] insert
+
+Initial Strings:
+s1 = "app"
+s2 = "auple"
+Goal:
+Convert s1 into s2 using the minimum number of operations. The operations allowed are:
+
+Delete a character
+Update (replace) a character
+Insert a character
+Steps to Achieve the Goal:
+Initial State:
+
+s1 = "app"
+s2 = "auple"
+First Operation - Update:
+
+Replace the first p in s1 with u.
+After update: a**u**p
+Second Operation - Insert:
+
+Insert l after u in s1.
+After insertion: au**l**p
+Third Operation - Insert:
+
+Insert e at the end of s1.
+After insertion: aul**e**
+Final Result:
+s1 = "auple"
+s2 = "auple"
+
+
+task-7: only using for one time
+
+    *
+   * *
+  *   *
+ *     *
+*       *
+ *     *
+  *   *
+   * *
+    *
+
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+  * * * * 
+   * * * 
+    * * 
+     * 
+
+num = 5
+
+for row in range(1, num+1):
+    print(" "*(num-row), "* "*(row))
+for row in range(1, num+1):
+    print(" "*row, "* "*(num-row))
+
+  *
+ ***
+*****
+ ***
+  *
+
