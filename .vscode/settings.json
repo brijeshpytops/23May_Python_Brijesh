@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./core/modules_and_packages"
+    ]
+}

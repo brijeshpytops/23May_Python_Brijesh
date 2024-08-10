@@ -54,6 +54,12 @@ Invalid passwprd, valid password
 
 task-5: generate city bus ticket
 
+stations = [
+  (1, 2, 10),
+  (2, 3, 10),
+  (3, 4, 15),
+]
+
 task-6: 
 
 s1 = app
