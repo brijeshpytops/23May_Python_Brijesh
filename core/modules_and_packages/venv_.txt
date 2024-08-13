@@ -1,0 +1,19 @@
+create virtual env.
+>>> python -m venv [myvenv]
+
+activate and deactivate venv
+>>> myvenv\Scripts\activate
+>>> myvenv\Scripts\deactivate
+
+intall and uninstall modules and packages
+>>> pip install package_name==x.x.x
+>>> pip uninstall package_name==x.x.x
+
+check installed modules and packages 
+>>> pip list/ pip freeze
+
+add your modules and package in requirements.txt
+>>> pip freeze > requirements.txt
+
+installed/ update modules and package from requirements.txt
+>>> pip install -r requirements.txt
