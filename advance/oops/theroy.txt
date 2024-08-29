@@ -1,0 +1,13 @@
+class and object
+encpsulation
+    - constructor
+inheritance
+    - single
+    - multilevel
+    - multiple
+    - herarchical
+    - hybrid
+abstraction
+polymorphism
+    - compiltime poly.
+    - runtime poly.
